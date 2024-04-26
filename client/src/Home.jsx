@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function Home() {
     const [data, setData] = useState([])
     useEffect(()=>{
-        axios.get('http://localhost:8081/')
+        axios.get('http://localhost:5000/')
         .then(res => setData(res.data))
         .catch(err => console.log(err))
     }, [])
@@ -19,9 +19,16 @@ function Home() {
                 <table className="table">
                     <thead>
                         <tr>
-                            <th>ID</th>
-                            <th>Name</th>
-                            <th>Action</th>
+                            <th>#</th>
+                            <th>STOCK ID</th>
+                            <th>STOCK NAME</th>
+                            <th>STOCK TICKER SYMBOL</th>
+                            <th>COMPANY NAME</th>
+                            <th>SECTOR</th>
+                            <th>INDUSTRY</th>
+                            <th>EXCHANGE</th>
+                            <th>INDUSTRY</th>
+                            <th>ACTION</th>
                         </tr>
                     </thead>
                     <tbody>
