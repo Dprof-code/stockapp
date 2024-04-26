@@ -4,7 +4,7 @@ function Create() {
     return (
         <div>
             <div className="w-50 bg-white rounded p-">
-                <h2>Add Student</h2>
+                <h2>Add Stock</h2>
                 
             </div>
         </div>
