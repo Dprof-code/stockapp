@@ -1,6 +1,9 @@
 {
   "name": "client",
   "version": "0.1.0",
+<<<<<<< HEAD
+  "private": true
+=======
   "private": true,
   "dependencies": {
     "bootstrap": "^5.3.3",
@@ -37,4 +40,5 @@
   "devDependencies": {
     "web-vitals": "^3.5.2"
   }
+>>>>>>> 0d7a62594cd0ef59bcf747ea5f6a2636c9ac2b06
 }
